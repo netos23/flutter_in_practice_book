@@ -1,4 +1,4 @@
-import 'package:syntax/syntax.dart';
+import 'package:syntax/syntax.dart' hide test;
 import 'package:test/test.dart';
 
 void main() {

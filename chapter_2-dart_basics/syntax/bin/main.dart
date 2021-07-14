@@ -1,3 +1,7 @@
 import 'package:syntax/syntax.dart' as syntax;
 
-main(List<String> arguments) => print('Hello world: ${syntax.calculate()}!');
+void main(List<String> arguments) {
+  // syntax.test(); const example throws an error
+  // syntax.sampleAsIs();
+  syntax.sampleCycles();
+}
